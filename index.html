@@ -4,11 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign up form</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="content">
-      <div class="titleSection"></div>
-      <div class="formSection"></div>
+      <div class="titleSection">
+        <img id="titleImg" src="/imgs/odin-lined.png" alt="" />
+        <h1 class="title">ODIN</h1>
+      </div>
+      <div class="formSection">
+        <form action="">
+          <h3>
+            This it not a real online service! You now you need something like
+            this in your life to help you realize you deepest dreams. Sign up
+            <em>now</em> to get started.
+            <p></p>
+            You <em>know</em> you want to.
+          </h3>
+          <section>
+            <h3>Let's do this!</h3>
+            <p>
+              <label for="firstName">First Name</label>
+              <input type="text" name="getFirstName" id="firstName" />
+            </p>
+            <p>
+              <label for="lastName">Last Name</label>
+              <input type="text" name="getLastName" id="lastName" />
+            </p>
+            <p>
+              <label for="userEmail">Email</label>
+              <input type="email" name="getEmail" id="userEmail" />
+            </p>
+            <p>
+              <label for="userNumber">Phone Number</label>
+              <input type="number" name="getNumber" id="userNumber" />
+            </p>
+            <p>
+              <label for="pwd">Password</label>
+              <input type="password" name="getPassword" id="pwd" />
+            </p>
+            <p>
+              <label for="confirmPwd">Confirm Password</label>
+              <input type="password" name="confirmPassword" id="confirmPwd" />
+            </p>
+          </section>
+          <section>
+            <button>Create Account</button>
+            <p>Already have an account? <span>Log in</span></p>
+          </section>
+        </form>
+      </div>
     </div>
   </body>
 </html>
