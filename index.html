@@ -45,21 +45,31 @@
               <input type="number" name="getNumber" id="userNumber" />
             </p>
             <p>
-              <label for="pwd">PASSWORD</label>
+              <label for="pwd"
+                >PASSWORD
+                <span class="required" aria-label="required">*</span></label
+              >
               <input
                 type="password"
                 name="getPassword"
                 id="pwd"
                 class="passwordValid"
+                required
               />
             </p>
             <p>
-              <label for="confirmPwd">CONFIRM PASSWORD</label>
+              <label for="confirmPwd"
+                >CONFIRM PASSWORD
+                <span class="required" aria-label="required">*</span>
+              </label>
               <input
                 type="password"
                 name="confirmPassword"
                 id="confirmPwd"
                 class="passwordValid"
+                minlength="6"
+                maxlength="12"
+                required
               />
             </p>
           </section>
